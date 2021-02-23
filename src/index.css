@@ -2,9 +2,7 @@
   display: flex;
   background-color: #f0f0f0;
   flex-direction: row-reverse;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  align-content: center;
+
   flex-wrap: wrap-reverse;
   width: 800px;
   height: 200px;
@@ -12,10 +10,12 @@
 .flexItem {
   padding: 20px;
   background-color: #b1ff84;
+  flex: 1;
 }
 .flexItem:first-child {
   background-color: #f5de25;
   align-self: flex-start;
+  flex: 0 0 100px;
 }
 .flexItem:last-child {
   background-color: #90d9f7;
